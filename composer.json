@@ -1,0 +1,29 @@
+{
+    "name": "meherban/interview",
+    "description": "this is only for development purpose",
+    "type": "library",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Meherban\\Interview\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Meherban Shah"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "mailgun/mailgun-php": "^3.5",
+        "symfony/http-client": "5.4.x-dev",
+        "nyholm/psr7": "^1.8@dev",
+        "phpmailer/phpmailer": "dev-master",
+        "sendgrid/sendgrid": "~7"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
